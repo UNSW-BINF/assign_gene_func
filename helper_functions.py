@@ -23,7 +23,7 @@ def global_alignment(seq1, seq2, scoring_function):
     Examples
     --------
     >>> global_alignment("the brown cat", "these brownies", lambda x, y: [-1, 1][x == y])
-    ('----the brown cat', 'thes--e brownies-', 5.0)
+    ('the-- brown cat', 'these brownies-', 3.0)
 
     Other alignments are also possible.
 
