@@ -37,8 +37,12 @@ jobs:
         with:
           args: >
             three_closest_references
+            blosum_selection
+            viral_origin
             orf_matches
-            drug_comments
+            binding_motif_present
+            binding_motif_similarity
+            EK1_drug_efficacy
         
       - name: Notebook and helper_functions files present
         uses: ./homework-actions/action-files-present

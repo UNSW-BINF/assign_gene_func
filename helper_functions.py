@@ -22,10 +22,10 @@ def global_alignment(seq1, seq2, scoring_function):
 
     Examples
     --------
-    >>> global_alignment("the brown cat", "these brownies", lambda x, y: [-1, 1][x == y])
-    ('the-- brown cat', 'these brownies-', 3.0)
+    >>> global_alignment("abracadabra", "dabarakadara", lambda x, y: [-1, 1][x == y])
+    ('-ab-racadabra', 'dabarakada-ra', 5.0)
 
-    Other alignments are also possible.
+    Other alignments are not possible.
 
     """
     raise NotImplementedError()
@@ -55,10 +55,10 @@ def local_alignment(seq1, seq2, scoring_function):
 
     Examples
     --------
-    >>> local_alignment("the brown cat", "these brownies", lambda x, y: [-1, 1][x == y])
-    ('the-- brown', 'these brown', 7.0)
+    >>> local_alignment("pending itch", "unending glitch", lambda x, y: [-1, 1][x == y])
+    ('ending --itch', 'ending glitch', 9.0)
 
-    Other alignments are also possible.
+    Other alignments are not possible.
 
     """
     raise NotImplementedError()
