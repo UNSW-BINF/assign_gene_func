@@ -1,4 +1,4 @@
-# Decoding gene function
+# Part 1: Decoding gene function
 
 **The tasks of this assignment are:**
 - Implement Global alignment (Needleman-Wunsch)
@@ -29,4 +29,5 @@ jupyter lab
 ```
 and a browser window should pop open, or you can manually navigate to http://localhost:8888/ in your browser.
 
+**Note, this has been adapted from homework-2 from the IB-ULFRI course.** 
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
