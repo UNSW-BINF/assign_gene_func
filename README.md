@@ -1,4 +1,5 @@
 # Part 1: Decoding gene function
+When annotating candidate genes or ORFs on a new genome, some may correspond to actual genes and some detected by chance. How can we tell which ORFs correspond to the actual genes? And how can we tell what the proteins are and do? 
 
 **The tasks of this assignment are:**
 - Implement Global alignment (Needleman-Wunsch)
