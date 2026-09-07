@@ -62,3 +62,9 @@ def local_alignment(seq1, seq2, scoring_function):
 
     """
     raise NotImplementedError()
+
+
+## This is an example scoring function, you should implement a version which uses a scoring matrix 
+def scoring_function_simple(aa_i,aa_j):
+    score = [-1, 1][aa_i == aa_j]
+    return (score)
